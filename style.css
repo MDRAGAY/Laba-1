@@ -1,0 +1,47 @@
+/* style.css */
+
+/* Общий фон страницы */
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Стили для заголовков */
+.title, .characteristics-title, .description-title {
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+/* Стили для краткого описания */
+.short-description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    margin: 10px 0;
+}
+
+/* Стили для подробного описания */
+.detailed-description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+/* Стили для списка характеристик */
+.characteristics-list {
+    list-style-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+PHJlY3Qgd2lkdGg9IjE0IiBoZWlnaHQ9IjE0IiBmaWxsPSIjZmZmIi8+PGcgZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNNS41IDBMMCA1LjUgNS41IDEwLjUgNS41IDE1LjUgMTAuNSA1LjUgMTUuNSA1LjUgMTAuNSA1LjUgNS41IDBMMzAgNS41TDEwLjUgNS41TDEwLjUgMTAuNSAxMC41IDE1LjUgNS41IDE1LjUgNS41IDEwLjUgNS41IDUuNXoiLz48L2c+PC9zdmci);
+    margin-left: 25px;
+}
+
+.characteristics-list li {
+    margin-bottom: 8px;
+}
